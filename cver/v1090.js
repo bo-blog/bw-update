@@ -1,1 +1,2 @@
-$("#ins").html("当前版本为最新。<br/>");
+$("#ins").html("有新版本可用：<b>1.1.0</b><br/>- 修复：文章发布后的跳转错误。<br/>- 改进：调整了“管理”按钮的位置。<br/>- 新增：手动上传更新包进行更新。<br/>- 新增：文字模板功能，可快速插入格式化的文本排版。<br/>- 新增：可在markdown中通过 -L -R 参数令图片居左或居右（插入图片时将 -L 或 -R 填写到小括号里即可）。<br/>- 新增：可在markdown中通过 “-Album: 描述” 参数在一篇文章里生成可以Lightbox方式播放的相册（插入图片时将 -Album: 图片描述 填写到小括号里）。<br/>");
+addUpdateBtn ("http://xiaofengtest.qiniudn.com/upkg1090.txt", 'dfe93f5e44b094544bce8be2b38b1c64');
